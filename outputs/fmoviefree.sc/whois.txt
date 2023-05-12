@@ -19,7 +19,7 @@ Name Server: LOLA.NS.CLOUDFLARE.COM
 Name Server: YEVGEN.NS.CLOUDFLARE.COM
 DNSSEC: unsigned
 
->>> Last update of WHOIS database: 2023-05-11T13:11:35Z <<<
+>>> Last update of WHOIS database: 2023-05-12T09:40:38Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
