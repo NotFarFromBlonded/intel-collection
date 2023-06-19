@@ -1,39 +1,39 @@
 Object ID,Object Name,Category,Subcategory,Keywords,Description,Created,Modified
-1876,,Video Player,Video Player Frameworks,"video.js, plyr, jwplayer, decrypted_player-v1",,2023-06-19 12:17:52,2023-06-19 12:17:52
-673,,Video Player,Video File Extensions,"mp4, webm, mp2t, video, tsfiles",,2023-06-19 12:17:52,2023-06-19 12:17:52
-253,,Advertisement,Ad Networks,"adservice, adfinity, adfox, fubotv.pxf, googleads, googlesyndication, impactradius-go, ntoftheusysianedt, pogothere, tubeskagos, unmistisdune, yadro, yt3.ggpht, adSense, media.net, taboola, outbrain, admob, doubleclick, googleadservices, ssp-rtb.sape, notix, onlombreor, rtmark, regenerator-runtime, escape-html, gulsachpyrexia",,2023-06-19 12:17:52,2023-06-19 12:17:52
-4159,,Advertisement,Ad Types,"display-ads, video-ads, native-ads",,2023-06-19 12:17:52,2023-06-19 12:17:52
-8859,,Advertisement,Ad General,"advertisement, banner, pop-up, sponsored, promoted",,2023-06-19 12:17:52,2023-06-19 12:17:52
-6513,,Images/GIFs,Image Asset,"images, img, image, jpg, png, gif, jpeg, svg",,2023-06-19 12:17:52,2023-06-19 12:17:52
-6428,,Content Delivery Networks (CDNs),CDN Providers,"maxcdn, cdnjs, cloudfront, dudialgator, iclickcdn, spo-play, taboola, cdn, cloudflare, akamai, fastly, cloudfront, cdn.taboola, jsdelivr, platform-cdn.sharethis",,2023-06-19 12:17:52,2023-06-19 12:17:52
-9085,,Content Delivery Networks (CDNs),Wordpress,"wp-content, wp-right, wp-includes, wp-rocket, wp-content",,2023-06-19 12:17:52,2023-06-19 12:17:52
-7922,,Content Delivery Networks (CDNs),Image CDN,vingartisticta,,2023-06-19 12:17:52,2023-06-19 12:17:52
-1858,,Content Delivery Networks (CDNs),CSS CDN,,,2023-06-19 12:17:52,2023-06-19 12:17:52
-8493,,Content Delivery Networks (CDNs),JS CDN,,,2023-06-19 12:17:52,2023-06-19 12:17:52
-7317,,Third-Party Plugins/Services,Payment Gateways,"paypal, stripe, braintree",,2023-06-19 12:17:52,2023-06-19 12:17:52
-4194,,Third-Party Plugins/Services,Other Plugins/Services,"octet-stream, binary",,2023-06-19 12:17:52,2023-06-19 12:17:52
-6317,,Third-Party Plugins/Services,Hosting,streamvid,,2023-06-19 12:17:52,2023-06-19 12:17:52
-1537,,Authentication,Login/Sign Up Services,"oauth, accounts.google, facebook.com/login",,2023-06-19 12:17:52,2023-06-19 12:17:52
-506,,Authentication,User Management Systems,"firebaseauth, okta, auth0",,2023-06-19 12:17:52,2023-06-19 12:17:52
-9164,,Authentication,Auth General,"login, signin, sign-in, sign-up, signup, register",,2023-06-19 12:17:52,2023-06-19 12:17:52
-3797,,Analytics,Analytics Platforms,"google-analytics, scorecardresearch, googletagmanager, yastatic, acint, webvisor",,2023-06-19 12:17:52,2023-06-19 12:17:52
-1618,,Analytics,Heatmap and User Tracking,"hotjar, crazy-egg, mouseflow",,2023-06-19 12:17:52,2023-06-19 12:17:52
-7207,,Analytics,Analytics General,"analytics, stats, traffic, visitors",,2023-06-19 12:17:52,2023-06-19 12:17:52
-1252,,Chat/Web Socket,Chat Services,"youtube-live-chat, twitch-chat, discord, chatango",,2023-06-19 12:17:52,2023-06-19 12:17:52
-6972,,Chat/Web Socket,Web Socket Connections,"socket.io, signalr, pusher",,2023-06-19 12:17:52,2023-06-19 12:17:52
-9281,,Frameworks and Libraries,JavaScript Libraries/Frameworks,"bootstrap, champaup, escape-html, fontawesome-webfont, jquery, lazyload, md5, pagead2, practicalwhich, psbar, react, react-dom, slide, star-rating, angular, regenerator-runtime, redux-framework, register-sw, lazysizes, element, psbar, ",,2023-06-19 12:17:52,2023-06-19 12:17:52
-5555,,Frameworks and Libraries,Cookie Management Libraries,"cookie.js, vue-cookie",,2023-06-19 12:17:52,2023-06-19 12:17:52
-2009,,Security,reCAPTCHA Integration,"recaptcha, gstatic",,2023-06-19 12:17:52,2023-06-19 12:17:52
-2175,,Security,Content Security Policies,CSP,,2023-06-19 12:17:52,2023-06-19 12:17:52
-7225,,Social Media Integration,Social Media Widgets,"twitter, instagram, facebook, twitch, discord",,2023-06-19 12:17:52,2023-06-19 12:17:52
-3461,,Social Media Integration,Social Sharing Plugins,"addthis, sharethis, socialshare.js",,2023-06-19 12:17:52,2023-06-19 12:17:52
-1583,,Social Media Integration,Messaging Services,"telegram, whatsApp",,2023-06-19 12:17:52,2023-06-19 12:17:52
-7230,,Content Management Systems (CMS),CMS Platforms,"wordPress, drupal, joomla",,2023-06-19 12:17:52,2023-06-19 12:17:52
-1022,,Content Management Systems (CMS),Headless CMS,"contentful, prismic, strapi",,2023-06-19 12:17:52,2023-06-19 12:17:52
-9102,,Content Management Systems (CMS),General CMS,cms,,2023-06-19 12:17:52,2023-06-19 12:17:52
-6155,,Bots,Search Engine Crawlers,"Googlebot, Baiduspider, googlebot, bingbot, slurp, yandex",,2023-06-19 12:17:52,2023-06-19 12:17:52
-1654,,Bots,Web Scraping Bots,"Scrapy, BeautifulSoup",,2023-06-19 12:17:52,2023-06-19 12:17:52
-7368,,Bots,Monitoring and Testing Bots,"Pingdom, New Relic Synthetics",,2023-06-19 12:17:52,2023-06-19 12:17:52
-6051,,Bots,Chatbots and Virtual Assistants,"dialogflow, IBM-Watson, Microsoft-Bot-Framework",,2023-06-19 12:17:52,2023-06-19 12:17:52
-9047,,Bots,Data Aggregation Bots,"Price-comparison bots, News-aggregators",,2023-06-19 12:17:52,2023-06-19 12:17:52
-2608,,Bots,General Bot,"bot, crawler, indexer, spider",,2023-06-19 12:17:52,2023-06-19 12:17:52
+0637,,Video Player,Video Player Frameworks,"video.js, plyr, jwplayer, decrypted_player-v1",,2023-06-19 12:20:19,2023-06-19 12:20:19
+5406,,Video Player,Video File Extensions,"mp4, webm, mp2t, video, tsfiles",,2023-06-19 12:20:19,2023-06-19 12:20:19
+7777,,Advertisement,Ad Networks,"adservice, adfinity, adfox, fubotv.pxf, googleads, googlesyndication, impactradius-go, ntoftheusysianedt, pogothere, tubeskagos, unmistisdune, yadro, yt3.ggpht, adSense, media.net, taboola, outbrain, admob, doubleclick, googleadservices, ssp-rtb.sape, notix, onlombreor, rtmark, regenerator-runtime, escape-html, gulsachpyrexia",,2023-06-19 12:20:19,2023-06-19 12:20:19
+7373,,Advertisement,Ad Types,"display-ads, video-ads, native-ads",,2023-06-19 12:20:19,2023-06-19 12:20:19
+1799,,Advertisement,Ad General,"advertisement, banner, pop-up, sponsored, promoted",,2023-06-19 12:20:19,2023-06-19 12:20:19
+2853,,Images/GIFs,Image Asset,"images, img, image, jpg, png, gif, jpeg, svg",,2023-06-19 12:20:19,2023-06-19 12:20:19
+4100,,Content Delivery Networks (CDNs),CDN Providers,"maxcdn, cdnjs, cloudfront, dudialgator, iclickcdn, spo-play, taboola, cdn, cloudflare, akamai, fastly, cloudfront, cdn.taboola, jsdelivr, platform-cdn.sharethis",,2023-06-19 12:20:19,2023-06-19 12:20:19
+5185,,Content Delivery Networks (CDNs),Wordpress,"wp-content, wp-right, wp-includes, wp-rocket, wp-content",,2023-06-19 12:20:19,2023-06-19 12:20:19
+4824,,Content Delivery Networks (CDNs),Image CDN,vingartisticta,,2023-06-19 12:20:19,2023-06-19 12:20:19
+0339,,Content Delivery Networks (CDNs),CSS CDN,,,2023-06-19 12:20:19,2023-06-19 12:20:19
+7813,,Content Delivery Networks (CDNs),JS CDN,,,2023-06-19 12:20:19,2023-06-19 12:20:19
+1970,,Third-Party Plugins/Services,Payment Gateways,"paypal, stripe, braintree",,2023-06-19 12:20:19,2023-06-19 12:20:19
+8942,,Third-Party Plugins/Services,Other Plugins/Services,"octet-stream, binary",,2023-06-19 12:20:19,2023-06-19 12:20:19
+4254,,Third-Party Plugins/Services,Hosting,streamvid,,2023-06-19 12:20:19,2023-06-19 12:20:19
+0262,,Authentication,Login/Sign Up Services,"oauth, accounts.google, facebook.com/login",,2023-06-19 12:20:19,2023-06-19 12:20:19
+2017,,Authentication,User Management Systems,"firebaseauth, okta, auth0",,2023-06-19 12:20:19,2023-06-19 12:20:19
+3477,,Authentication,Auth General,"login, signin, sign-in, sign-up, signup, register",,2023-06-19 12:20:19,2023-06-19 12:20:19
+5964,,Analytics,Analytics Platforms,"google-analytics, scorecardresearch, googletagmanager, yastatic, acint, webvisor",,2023-06-19 12:20:19,2023-06-19 12:20:19
+9432,,Analytics,Heatmap and User Tracking,"hotjar, crazy-egg, mouseflow",,2023-06-19 12:20:19,2023-06-19 12:20:19
+4787,,Analytics,Analytics General,"analytics, stats, traffic, visitors",,2023-06-19 12:20:19,2023-06-19 12:20:19
+7836,,Chat/Web Socket,Chat Services,"youtube-live-chat, twitch-chat, discord, chatango",,2023-06-19 12:20:19,2023-06-19 12:20:19
+0315,,Chat/Web Socket,Web Socket Connections,"socket.io, signalr, pusher",,2023-06-19 12:20:19,2023-06-19 12:20:19
+7886,,Frameworks and Libraries,JavaScript Libraries/Frameworks,"bootstrap, champaup, escape-html, fontawesome-webfont, jquery, lazyload, md5, pagead2, practicalwhich, psbar, react, react-dom, slide, star-rating, angular, regenerator-runtime, redux-framework, register-sw, lazysizes, element, psbar, ",,2023-06-19 12:20:19,2023-06-19 12:20:19
+2280,,Frameworks and Libraries,Cookie Management Libraries,"cookie.js, vue-cookie",,2023-06-19 12:20:19,2023-06-19 12:20:19
+1501,,Security,reCAPTCHA Integration,"recaptcha, gstatic",,2023-06-19 12:20:19,2023-06-19 12:20:19
+9385,,Security,Content Security Policies,CSP,,2023-06-19 12:20:19,2023-06-19 12:20:19
+5277,,Social Media Integration,Social Media Widgets,"twitter, instagram, facebook, twitch, discord",,2023-06-19 12:20:19,2023-06-19 12:20:19
+6751,,Social Media Integration,Social Sharing Plugins,"addthis, sharethis, socialshare.js",,2023-06-19 12:20:19,2023-06-19 12:20:19
+1317,,Social Media Integration,Messaging Services,"telegram, whatsApp",,2023-06-19 12:20:19,2023-06-19 12:20:19
+0589,,Content Management Systems (CMS),CMS Platforms,"wordPress, drupal, joomla",,2023-06-19 12:20:19,2023-06-19 12:20:19
+6591,,Content Management Systems (CMS),Headless CMS,"contentful, prismic, strapi",,2023-06-19 12:20:19,2023-06-19 12:20:19
+9416,,Content Management Systems (CMS),General CMS,cms,,2023-06-19 12:20:19,2023-06-19 12:20:19
+8235,,Bots,Search Engine Crawlers,"Googlebot, Baiduspider, googlebot, bingbot, slurp, yandex",,2023-06-19 12:20:19,2023-06-19 12:20:19
+7042,,Bots,Web Scraping Bots,"Scrapy, BeautifulSoup",,2023-06-19 12:20:19,2023-06-19 12:20:19
+7874,,Bots,Monitoring and Testing Bots,"Pingdom, New Relic Synthetics",,2023-06-19 12:20:19,2023-06-19 12:20:19
+7917,,Bots,Chatbots and Virtual Assistants,"dialogflow, IBM-Watson, Microsoft-Bot-Framework",,2023-06-19 12:20:19,2023-06-19 12:20:19
+9992,,Bots,Data Aggregation Bots,"Price-comparison bots, News-aggregators",,2023-06-19 12:20:19,2023-06-19 12:20:19
+7381,,Bots,General Bot,"bot, crawler, indexer, spider",,2023-06-19 12:20:19,2023-06-19 12:20:19

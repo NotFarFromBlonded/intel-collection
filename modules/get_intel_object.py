@@ -211,6 +211,7 @@ def generate_object_id(category, subcategory):
     object_id = hash(combined_string)
     object_id = abs(object_id)
     object_id = object_id % 10000  # Limit the length to four digits
+    object_id = str(object_id).zfill(4)
     return object_id
 
 
