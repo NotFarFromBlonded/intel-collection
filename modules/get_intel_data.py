@@ -4,6 +4,7 @@ import csv
 from tabulate import tabulate
 from urllib import parse as urlparse
 from selenium import webdriver
+import pandas as pd
 
 
 def shorten_url(url):
@@ -59,6 +60,21 @@ def fetch_object_id(url):
                 return object_id
     return None
 
+def convert_to_dict():
+    df = pd.read_csv("/home/debashishmajumdar/Documents/GitHub/intel-collection/outputs/network_call_object_table.csv")
+    data_dict = {}
+    for index, row in df.iterrows():
+        data_dict[row["Object ID"]] = {"Keywords":str(row["Keywords"]).split(", ") if row["Keywords"] else []}
+    return data_dict
+
+def add_object_ids(data_dict, specific_url):
+    object_ids = []
+    for key, value in data_dict.items():
+        for v in value['Keywords']:
+            if v in specific_url:
+                object_ids.append(key)
+                break
+    return object_ids
 
 # Categorize the URLs and retrieve the object ID
 categorized_data = []
@@ -72,10 +88,12 @@ for line in network_data:
         domain = domain[4:]
     else:
         domain = domain.split("//")[-1]
+    data_dict = convert_to_dict()
     redirected_domain = get_redirected_domain(url)
     specific_url = shorten_url(url)
     intel_object_id = fetch_object_id(url)
     service_type = "vod"  # Default service type is "vod"
+    object_ids = add_object_ids(data_dict, url)
     categorized_data.append(
         [
             tracked_date,
@@ -85,6 +103,7 @@ for line in network_data:
             intel_object_id,
             status_code,
             service_type,
+            object_ids
         ]
     )
 
@@ -99,6 +118,7 @@ headers = [
     "Intel Object ID",
     "Status Code",
     "Service Type",
+    "Object IDs"
 ]
 
 # Generate the table
