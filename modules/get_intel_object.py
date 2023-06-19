@@ -41,7 +41,7 @@ categories = {
             "rtmark",
             "regenerator-runtime",
             "escape-html",
-            "gulsachpyrexia"
+            "gulsachpyrexia",
         ],
         "Ad Types": ["display-ads", "video-ads", "native-ads"],
         "Ad General": [
@@ -82,7 +82,13 @@ categories = {
             "jsdelivr",
             "platform-cdn.sharethis",
         ],
-        "Wordpress": ["wp-content", "wp-right", "wp-includes", "wp-rocket", "wp-content"],
+        "Wordpress": [
+            "wp-content",
+            "wp-right",
+            "wp-includes",
+            "wp-rocket",
+            "wp-content",
+        ],
         "Image CDN": [
             "vingartisticta",
         ],
@@ -95,9 +101,7 @@ categories = {
             "octet-stream",
             "binary",
         ],
-        "Hosting": [
-            "streamvid"
-        ]
+        "Hosting": ["streamvid"],
     },
     "Authentication": {
         "Login/Sign Up Services": ["oauth", "accounts.google", "facebook.com/login"],
@@ -148,7 +152,7 @@ categories = {
             "lazysizes",
             "element",
             "psbar",
-            ""
+            "",
         ],
         "Cookie Management Libraries": ["cookie.js", "vue-cookie"],
     },
@@ -204,10 +208,9 @@ categories = {
 def generate_object_id(category, subcategory):
     # Concatenate category and subcategory strings
     combined_string = category + subcategory
-    # Hash the combined string
     object_id = hash(combined_string)
-    # Ensure the object ID is positive
     object_id = abs(object_id)
+    object_id = object_id % 10000  # Limit the length to four digits
     return object_id
 
 
@@ -257,8 +260,9 @@ csv_data = []
 csv_data.append(headers)
 csv_data.extend(table_data)
 # Write the table to a file
+file_name = f"C:/Users/Harshita.Betala/Documents/intel_collection/intel-collection/outputs/network_call_object_table.csv"
 with open(
-    "/home/debashishmajumdar/Documents/GitHub/intel-collection/outputs/network_call_object_table.csv",
+    file_name,
     "w",
 ) as file:
     writer = csv.writer(file)
